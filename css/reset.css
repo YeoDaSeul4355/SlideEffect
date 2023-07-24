@@ -1,0 +1,152 @@
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+@import url('https://webfontworld.github.io/goodchoice/Jalnan.css');
+@import url('https://webfontworld.github.io/sunn/SUIT.css');
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
+@import url('https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css');
+@import url('https://webfontworld.github.io/PyeongChang/PyeongChang.css');
+@import url('https://webfontworld.github.io/NexonMaplestory/NexonMaplestory.css');
+@import url('https://webfontworld.github.io/vitro/VitroCore.css');
+@import url('https://webfontworld.github.io/locus/LocusSangsang.css');
+@import url('https://webfontworld.github.io/kohi/KOHIBaeum.css');
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #222;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+li, ul, ol {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+    width: 100%;
+}
+em {
+    font-style: normal;
+}
+.font01 {
+    font-family: 'Pretendard';
+    font-weight: 300;
+}
+.font02 {
+    font-family: 'Jalnan';
+    font-weight: 300;
+}
+.font03 {
+    font-family: 'GmarketSans';
+    font-weight: 300;
+}
+.font04 {
+    font-family: 'SUIT';
+    font-weight: 300;
+}
+.font05 {
+    font-family: 'NexonLv1Gothic';
+    font-weight: 300;
+}
+.font06 {
+    font-family: 'PyeongChang';
+    font-weight: 300;
+}
+.font07 {
+    font-family: 'NexonMaplestory';
+    font-weight: 300;
+}
+.font08 {
+    font-family: 'VitroCore';
+    font-weight: 300;
+}
+.font09 {
+    font-family: 'LocusSangsang';
+    font-weight: 300;
+}
+.font10 {
+    font-family: 'KOHIBaeum';
+    font-weight: 300;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+}
+body.img01 {
+    background-image: url(../img/sliderEffect01-min.jpg);
+}
+body.img02 {
+    background-image: url(../img/sliderEffect02-min.jpg);
+}
+body.img03 {
+    background-image: url(../img/sliderEffect03-min.jpg);
+}
+body.img04 {
+    background-image: url(../img/sliderEffect04-min.jpg);
+}
+body.img05 {
+    background-image: url(../img/sliderEffect05-min.jpg);
+}
+body.img06 {
+    background-image: url(../img/sliderEffect06-min.jpg);
+}
+body.img07 {
+    background-image: url(../img/sliderEffect07-min.jpg);
+}
+body.img08 {
+    background-image: url(../img/sliderEffect08-min.jpg);
+}
+body.img09 {
+    background-image: url(../img/sliderEffect09-min.jpg);
+}
+body.img10 {
+    background-image: url(../img/sliderEffect10-min.jpg);
+}
+body::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+body.bg01::after {
+    background-color: rgba(54, 71, 84, 0.6);
+}
+body.bg02::after {
+    background-color: rgba(59, 27, 35, 0.7);
+}
+body.bg03::after {
+    background-color: rgba(71, 51, 33, 0.95);
+}
+body.bg04::after {
+    background-color: rgba(66, 80, 69, 0.7);
+}
+body.bg05::after {
+    background-color: rgba(104, 78, 88, 0.7);
+}
+body.bg06::after {
+    background-color: rgba(83, 80, 66, 0.7);
+}
+body.bg07::after {
+    background-color: rgba(65, 39, 88, 0.7);
+}
+body.bg08::after {
+    background-color: rgba(30, 53, 49, 0.7);
+}
+body.bg09::after {
+    background-color: rgba(49, 53, 54, 0.7);
+}
+body.bg10::after {
+    background-color: rgba(38, 16, 41, 0.7);
+}
