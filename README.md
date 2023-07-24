@@ -1,5 +1,6 @@
 # ✍️ JAVASCRIPT : SLIDE EFFECT
 
+![slide01](https://github.com/YeoDaSeul4355/SlideEffect/assets/125419623/62e4da96-26c2-425b-92ca-6ce453450087)
 
 <br><br>
 
@@ -27,6 +28,14 @@
 * GSAP(GreenSock Animation Platform): GSAP 라이브러리를 사용하여 애니메이션 효과를 부여합니다. gsap.to 메서드를 사용하여 슬라이더의 투명도를 변경하여 이미지를 부드럽게 전환합니다.
 <br><br>
 
-## 📸 다른 페이지
+## 📚 구현 내역
+* 페이드 아웃 슬라이드
+* 좌,우 / 상,하 슬라이드 (연속적)
+* 닷버튼 슬라이드
+* 썸네일 슬라이드
+<br><br>
 
+## 📸 다른 페이지
+![slide02](https://github.com/YeoDaSeul4355/SlideEffect/assets/125419623/cce0a4c3-4132-48fd-ab5d-be4be625cf0e)<br><br>
+![slide03](https://github.com/YeoDaSeul4355/SlideEffect/assets/125419623/e3bdf650-2393-426c-b263-802702a5b84a)
 
